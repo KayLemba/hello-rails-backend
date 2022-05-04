@@ -1,62 +1,93 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/KayLemba-blueviolet)
 
-# Project Name
+# Hello Rails Back End App
 
-> Description the project.
+> Hello Rails back-end app is simple application that contains setup of rails APIs. The API loads a random greeting from database on every requset.
 
+## Link to the front end
+
+[Hello React front end](https://github.com/KayLemba/hello-react-front-end)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Major languages (Ruby)
+- Framworks (Ruby on Rails)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- A text editor(preferably Visual Studio Code)
+
+### Install
+- Ruby
+- Ruby on Rails
+- PostgresSQL
+
+### Using it Locally
+
+- Clone the project
+
+```
+git clone git@github.com:KayLemba/hello-rails-backend.git
+cd hello-rails-back-end
+```
 
 ### Setup
 
-### Install
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
 ### Usage
 
-### Run tests
+Start server with:
 
-### Deployment
+```
+rails server
+```
 
+Visit http://localhost:3000/ in your browser.
+
+### Open API documentation
+
+```
+Coming soon!
+```
+
+## Visit And Open Files
+
+[Visit Repo](https://github.com/KayLemba/hello-rails-backend)
+
+## Download Repo
+
+[Download Repo](https://github.com/KayLemba/hello-rails-backend/archive/refs/heads/main.zip)
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Kalolo Chola Lemba**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@KayLemba](https://github.com/KayLemba)
+- Twitter: [@King-Kaylo1](https://twitter.com/King_Kaylo1) 
+- LinkedIn: [@kalolo-lemba](https://www.linkedin.com/in/https://www.linkedin.com/in/kalolo-lemba)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/KayLemba/hello-rails-backend/issues).
 
 ## Show your support
 
@@ -64,10 +95,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspiration: Microverse
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
